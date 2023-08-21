@@ -29,13 +29,13 @@ const Navbar = () => {
           </Link>
           <Link
             className="text-white/90 hover:text-white"
-            href="https://github.com/gitdagray"
+            href="https://github.com/nihar-hegde"
           >
             <FaGithub />
           </Link>
           <Link
             className="text-white/90 hover:text-white"
-            href="https://twitter.com/yesdavidgray"
+            href="https://twitter.com/nihar=hegde"
           >
             <FaTwitter />
           </Link>
