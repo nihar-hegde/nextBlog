@@ -4,6 +4,13 @@ import { notFound } from "next/navigation";
 import getFormatedDate from "@/lib/getFormatedDate";
 import Link from "next/link";
 
+export function generateStaticParams() {
+  const posts = getSortedPostsData();
+  return posts.map((post) => ({
+    postId: post.id,
+  }));
+}
+
 export const generateMetadata = ({
   params,
 }: {
